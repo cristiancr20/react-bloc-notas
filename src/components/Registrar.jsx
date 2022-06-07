@@ -8,8 +8,6 @@ function Registrar() {
     return (
         <>
             <div className="registro">
-
-
                 <div className="caja ">
                     <div className="imagen">
                         <img src={img} alt="logo react" />
