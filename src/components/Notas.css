@@ -1,0 +1,44 @@
+
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.cardnota{
+    background: #282c34;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+h5{
+    color: red;
+    font-size: 20px;
+}
+p{
+    color: #fff;
+}
+
+.button-eliminar{
+    background: red;
+}
+
+
+@media screen and (max-width: 960px){
+    .contenedor{
+        display: grid;
+        grid-template-columns:1fr 1fr ;
+        width: 100%;
+        margin:auto;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .contenedor{
+        display: grid;
+        grid-template-columns:1fr  ;
+        width: 100%;
+        margin:auto;
+    }
+}
